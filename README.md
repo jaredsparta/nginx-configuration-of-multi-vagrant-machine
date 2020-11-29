@@ -147,3 +147,9 @@ sudo systemctl restart nginx
     2. `app/package-lock.json`
 
 - Then, add `npm install` before `npm start &` in `environment/app/provision.sh`. This will allow you to install the necessary files and packages yourself.
+
+<br>
+
+---
+**Used:**
+- [Configure nginx as a reverse proxy](https://www.tecmint.com/nginx-as-reverse-proxy-for-nodejs-app/)
