@@ -28,6 +28,7 @@ sudo systemctl restart nginx
 # we cd into the app directory and start it
 # we use & to start it in the background
 cd /home/ubuntu/app
+npm install
 npm start &
 
 # this moves the configuration file to the necessary place
