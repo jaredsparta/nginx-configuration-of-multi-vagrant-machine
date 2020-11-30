@@ -123,6 +123,7 @@ sudo systemctl restart nginx
 # we cd into the app directory and start it
 # we use & to start it in the background
 cd /home/ubuntu/app
+npm install
 npm start &
 
 # this moves the configuration file to the necessary place
@@ -133,8 +134,9 @@ sudo rm /etc/nginx/sites-enabled/default
 
 # restart the server to allow the config files to change
 sudo systemctl restart nginx
-
 ```
+
+<br>
 
 - Now since all the necessary commands in the provision file are inputted, we just simply need to `vagrant up` and the app will be running on `development.local`
 
